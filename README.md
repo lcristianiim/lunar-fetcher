@@ -46,3 +46,7 @@ Saves lunar data to a json file.
 ```sh
 ./gradlew test
 ```
+
+## :scroll: License
+Apache License, Version 2.0 © Cristian Szabo
+
