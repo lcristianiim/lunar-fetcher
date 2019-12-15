@@ -5,6 +5,7 @@ package lunar.fetcher;
 
 import com.google.gson.Gson;
 import lunar.model.LunarDataSet;
+import lunar.model.LunarDataSetsBuilder;
 
 import java.io.FileWriter;
 import java.io.IOException;

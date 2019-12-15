@@ -1,8 +1,7 @@
-package lunar.fetcher;
+package lunar.model;
 
-import lunar.fetcher.timeaddateimpl.Fetcher;
-import lunar.model.LunarDataSet;
-import lunar.model.LunarDataSetBuilder;
+import lunar.fetcher.Repo;
+import lunar.fetcher.timeaddateimpl.TimeAndDateFetcher;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +34,7 @@ public class LunarDataSetsBuilder {
 
     private LunarDataSet buildLunarDataSet(int year) {
         LunarDataSetBuilder builder = new LunarDataSetBuilder();
-        Repo fetcher = new Fetcher(year, numberRepresentationOfPlace, location);
+        Repo fetcher = new TimeAndDateFetcher(year, numberRepresentationOfPlace, location);
          return builder
                 .year(year)
                 .equinox(fetcher.equinox())

@@ -10,12 +10,12 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Fetcher implements Repo {
+public class TimeAndDateFetcher implements Repo {
     int year;
     int place;
     String location;
 
-    public Fetcher(int year, int place, String location) {
+    public TimeAndDateFetcher(int year, int place, String location) {
         this.year = year;
         this.place = place;
         this.location = location;

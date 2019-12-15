@@ -12,7 +12,7 @@ Lunar data consists of:
 - **march sunsets**
 - **april sunsets**
 
-## Installation
+## :gear: Installation
 
 ```sh
 # create jar (build/libs/lunar-fetcher.jar)
@@ -40,3 +40,9 @@ Saves lunar data to a json file.
 #### Note 
 - In order to get the right `locationId` and `place` for your desired location, you must check timeanddate.com
 - To get lunar data for only one year make `starYear` have the same value with `endYear`.
+
+
+## ::heavy_check_mark:: Run tests
+```sh
+./gradlew test
+```

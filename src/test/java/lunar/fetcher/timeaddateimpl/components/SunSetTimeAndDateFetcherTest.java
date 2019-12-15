@@ -11,7 +11,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-class SunSetFetcherTest {
+class SunSetTimeAndDateFetcherTest {
     SunSetFetcher marchSunSetFetcher_1962;
     SunSetFetcher aprilSunSetFetcher_1962;
     SunSetFetcher marchSunSetFetcher_2020;

@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-class MoonPhaseFetcherTest {
+class MoonPhaseTimeAndDateFetcherTest {
     public static final String APRIL = Month.APRIL.getValue();
     public static final String MARCH = Month.MARCH.getValue();
 
