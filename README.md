@@ -42,7 +42,7 @@ Saves lunar data to a json file.
 - To get lunar data for only one year make `starYear` have the same value with `endYear`.
 
 
-## ::heavy_check_mark:: Run tests
+## :heavy_check_mark: Run tests
 ```sh
 ./gradlew test
 ```
