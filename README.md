@@ -1,4 +1,6 @@
-[![lunar-fetcher](https://imgur.com/rUrs6xh)](#)
+[![lunar-fetcher](https://i.imgur.com/rUrs6xh.png)](#)
+
+# lunar-fetcher
 A java library that collects lunar data from timeanddate.com  
 
 Lunar data consists of:
