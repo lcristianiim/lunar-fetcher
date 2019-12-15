@@ -44,6 +44,7 @@ Saves lunar data to a json file.
 
 ## :heavy_check_mark: Run tests
 ```sh
+# run tests before using to ensure the implementation is consistent with current timeanddate.com at the time of youre usage.
 ./gradlew test
 ```
 
