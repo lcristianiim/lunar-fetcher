@@ -1,4 +1,5 @@
-A java library that collects lunar data from timeanddate.com
+A java library that collects lunar data from timeanddate.com  
+
 Lunar data consists of:
 - **spring equinox**
 - **march new moon**
@@ -18,19 +19,21 @@ Lunar data consists of:
 ## :clipboard: Example
 ```sh
 # Run the jar lunar-fetcher.jar
-
 java -jar lunar-fetcher.jar 2020 2021 268 switzerland/zurich
+
+# After completion the file 2020-2021.json will be created. There you can find all lunar data for specified years.
 ```
 
 ## :memo: Documentation
 ### `lunar-fetcher.jar <startYear> <endYear> <locationId> <place>`
-Saves lunar data to a jon file.
+Saves lunar data to a json file.
 
 #### Params
-
 - **int** `startYear`: The year to start collecting data from. i.e 2020
 - **int** `endYear`: The end year of collecting data. i.e 2021
 - **int** `locationId`: Number representing a location. i.e 110
-In order to get the right locationId for you desired location, you must check timeanddate.com
 - **String** `place`: String representing a location. i.e israel/jerusalem
-In order to get the right place for you desired location, you must check timeanddate.com
+
+#### Note 
+- In order to get the right `locationId` and `place` for your desired location, you must check timeanddate.com
+- To get lunar data for only one year make `starYear` have the same value with `endYear`.
